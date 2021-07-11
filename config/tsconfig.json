@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "checkJs": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "esnext", "webworker"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "types": ["svelte", "node"],
+    "paths": {
+      "$app/*": [".svelte-kit/dev/runtime/app/*", ".svelte-kit/build/runtime/app/*"],
+      "$lib/*": ["src/lib/*"],
+      "#/": ["src/*"]
+    }
+  },
+  "extends": "./node_modules/@tsconfig/svelte/tsconfig.json",
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"],
+  "exclude": ["node_modules/*", "public/*"]
+}

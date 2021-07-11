@@ -1,0 +1,91 @@
+{
+  "files.associations": {
+    "*.svx": "markdown"
+  },
+  "files.exclude": {
+    "**/*.txt": true
+  },
+  "search.exclude": {
+    "*/build/**": true,
+    "*/.cache": true,
+    "*/dist": true,
+    ".github": true,
+    "**/node_modules": true,
+    "package-lock.json": true,   
+    "*/public/**": true,
+    "**/*.snap": true,
+    "**/__snapshots__": true,
+    ".svelte": true,
+    "**/*.svg": true,
+    ".vscode": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "yarn.lock": true,
+  },
+  "editor.defaultFormatter": "dprint.dprint",
+  "stylelint.packageManager": "npm",
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "postcss"
+  ],
+  "eslint.options": {
+    "extensinons": [".ts", ".js", ".tsx", ".jsx", ".svelte"]
+  },
+  "eslint.packageManager": "npm",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typecriptreact",
+    "svelte"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "black",
+      "background": "#82AAFF",
+      "icon": "tag",
+      "iconColour": "#82AAFF",
+      "gutterIcon": true
+    },
+    "BUG": {
+      "foreground": "white",
+      "background": "#AC4142",
+      "icon": "bug",
+      "iconColour": "#AC4142",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "foreground": "black",
+      "background": "#FFCC00",
+      "iconColour": "#FFCC00",
+      "icon": "alert",
+      "gutterIcon": true
+    }
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "text-and-comment"
+  }
+}

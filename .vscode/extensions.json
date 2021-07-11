@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+      "dprint.dprint",
+      "svelte.svelte-vscode",
+      "ardenivanov.svelte-intellisense",
+      "snipsnapdev.snipsnap-vscode",
+      "fivethree.vscode-svelte-snippets",
+      "vivaxy.vscode-conventional-commits",
+      "silvenon.mdx",
+      "csstools.postcss",
+      "bradlc.vscode-tailwindcss",
+      "voorjaar.windicss-intellisense",
+      "stylelint.vscode-stylelint",
+      "dbaeumer.vscode-eslint"
+  ]
+}
